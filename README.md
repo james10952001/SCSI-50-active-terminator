@@ -1,2 +1,2 @@
 # SCSI-50-active-terminator
-Open source active terminator for 50 pin single ended SCSI
+Open source active terminator for 50 pin single ended SCSI systems. This is designed so it can be built with either the standard male connector that mates with 50 pin SCSI cables or the less common female connector needed by the OEM cable in my DECpc 486. The connector will need to be installed on the side of the board marked 'M' if you are using a male connector or 'F' if you use a female connector. The LED can be installed on either side according to preference. It is recommended to use an old style low efficiency LED to achieve a period correct look in your vintage machine, otherwise you should increase the value of R10 so that a modern LED is not obnoxiously bright.
